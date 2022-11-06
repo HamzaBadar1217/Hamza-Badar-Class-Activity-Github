@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #c38ef8;
+}
+
+.countdown{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.countdown span{
+  color: #7900FF;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.card-img-top {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.card-header {
+  height: 165px;
+  background-color: #7900ff;
+}
+
+.card-body {
+  margin-top: 90px;
+}
+
+.card-title {
+  font-family: "Damion", cursive;
+  font-family: "Righteous", cursive;
+
+  font-size: 1.3em;
+}
+
+.card-sub-title {
+  color: #c38ef8;
+  font-size: 1.05em;
+}
+
+.card-text {
+  font-size: 14px;
+  color: rgb(134, 134, 134);
+  margin: 30px 17px 10px 17px;
+}
+
+.profile-url {
+  color: #c38ef8;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn {
+  background-color: #7e01ff;
+  color: rgb(235, 233, 233);
+  font-weight: 500;
+  font-size: 0.9em;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #7f00ff;
+  border: 2px solid #7f00ff;
+}
+
+.shadow-card-container {
+  width: 355px;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.3;
+  height: fit-content;
+}
+
+.card-shadow-header {
+  height: 215px;
+  background-color: #966dbe;
+}
+
+.card-img-shadow-top {
+  margin-top: 135px;
+}
+
+.card-shadow-title {
+  font-size: 1.5em;
+}
+
+.card-sub-shadow-title {
+  font-size: 1.15em;
+}
+
+.card-shadow-text {
+  font-size: 15px;
+  margin: 32px 20px 13px 20px;
+}
+
+.card-shadow-body {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  #main-card{
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    margin-left: 200px;
+  }
+
+  .shadow-card-container {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main-card{
+    position: relative;
+    left: 20px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #main-card{
+    margin: 100px 0;
+  }
+}
